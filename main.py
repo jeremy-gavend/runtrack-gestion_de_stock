@@ -5,12 +5,24 @@ mydb = mysql.connector.connect(
   host="localhost",
   user = "root",
   password = "root",
-  database = "store",
+  database = "store", # -> Replace 'USE'
 )
+
+"""
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+file: "./.env" -> PASSWORD = "root"
+file: './.gitignore" -> *.env
+
+PASSWORD = os.getenv("PASSWORD")
+"""
 
 cursor = mydb.cursor()
 
 while True:
+    # cursor.execute("USE store;")
     cursor.execute("SELECT * FROM product;")
     display = cursor.fetchall()
     for product in display:
