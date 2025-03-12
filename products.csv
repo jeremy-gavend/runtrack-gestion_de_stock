@@ -1,0 +1,8 @@
+ID,Name,Description,Price,Quantity,Category ID
+1,Milk,Just white milk coming from white cows.,150,200,1
+2,Cow Steak,"A nice, juicy steak ready to be cooked.",500,50,2
+3,Brown Egg,An oval brown egg coming from brown chickens.,20,500,2
+4,Potato,A root growing too big which can be cooked by steam or else.,50,400,3
+5,Carrot,An orange root growing too big which isn't that nice when cooked.,70,350,3
+6,Water,It's yummy water.,10,300,4
+7,Salad,Just leaves,200,20,3
